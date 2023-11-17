@@ -1,6 +1,5 @@
 // Iteration 1: Declare variables required for this game
 let gameBody = document.getElementById("game-body")
-let lives = document.getElementById("lives")
 let time = document.getElementById("timer").textContent
 let zombieid = 0;
 
