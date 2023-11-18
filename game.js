@@ -15,6 +15,8 @@ let zombieArr = [
 // Iteration 1.2: Add shotgun sound
 const shotgunSound = new Audio('./assets/shotgun.wav')
 gameBody.onclick = () => {
+    shotgunSound.pause();
+    shotgunSound.currentTime = 0
     shotgunSound.play();
 }
 
